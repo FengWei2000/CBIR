@@ -6,9 +6,6 @@ import os
 import numpy as np
 import h5py
 
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-
 
 def query_picture(pic, nums=10, database=r'D:\working_fold\软件课程设计\vgg\image1', index=os.getcwd() + r'\featureCNN.h5'):
     """
