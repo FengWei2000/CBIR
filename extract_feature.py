@@ -16,9 +16,10 @@ class VGGNet:
         # input_shape: (width, height, 3), width and height should >= 48
         self.input_shape = (224, 224, 3)
         self.weight = 'imagenet'
-        self.pooling = 'max'
-        self.model = VGG16(weights=self.weight, input_shape=(self.input_shape[0], self.input_shape[1], self.input_shape[2]), pooling=self.pooling, include_top = False)
+        self.pooling = 'max'    # 最大池化
+        self.model = VGG16(weights=self.weight, input_shape=(self.input_shape[0], self.input_shape[1], self.input_shape[2]), pooling=self.pooling, include_top=False)
         self.model.predict(np.zeros((1, 224, 224, 3)))
+        # print(self.model.summary())
 
     '''
     Use vgg16 model to extract features
@@ -29,7 +30,11 @@ class VGGNet:
         img = image.img_to_array(img)
         img = np.expand_dims(img, axis=0)
         img = preprocess_input(img)
-        feat = self.model.predict(img)
-        norm_feat = feat[0]/LA.norm(feat[0])
+        feat = self.model.predict(img)      # 输出为最后一个最大池化层
+        print(feat.shape)
+        print('feat', feat)
+        norm_feat = feat[0]/LA.norm(feat[0])    # 相当于归一化
+        print(norm_feat.shape)
+        print('norm_feat', norm_feat)
         return norm_feat
 
