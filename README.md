@@ -3,6 +3,7 @@
 Python 3.7.6
 
 第三方库：PIL,tkinter,time,xlwt,numpy,keras=2.4.3,TensorFlow=2.3.1,h5py,heapq,math
+建议大家直接运行root.py，看缺少哪个库就pip安装哪一个。面向报错修改就可以了。
 
 OS:Windows10
 
@@ -22,3 +23,6 @@ OS:Windows10
 
 任何路径都可在settings.py中修改。
 
+
+百度网盘链接：https://pan.baidu.com/s/1YzFRFTY_bDCXVxICA3r69g 提取码：7oaf
+百度网盘里包括图片等运行程序的所有内容，下载解压后即可直接运行root.py文件进入主界面。
