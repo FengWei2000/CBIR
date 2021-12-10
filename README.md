@@ -26,3 +26,6 @@ OS:Windows10
 
 百度网盘链接：https://pan.baidu.com/s/1YzFRFTY_bDCXVxICA3r69g 提取码：7oaf
 百度网盘里包括图片等运行程序的所有内容，下载解压后即可直接运行root.py文件进入主界面。
+
+## 视频演示地址
+[【CBIR】基于内容的图形检索系统——Python实现](https://www.bilibili.com/video/BV1Jf4y15795)
