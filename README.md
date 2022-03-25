@@ -29,3 +29,5 @@ OS:Windows10
 
 ## 视频演示地址
 [【CBIR】基于内容的图形检索系统——Python实现](https://www.bilibili.com/video/BV1Jf4y15795)
+
+有问题可以提issue
