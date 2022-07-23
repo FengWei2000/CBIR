@@ -31,4 +31,4 @@ OS:Windows10
 [【CBIR】基于内容的图形检索系统——Python实现](https://www.bilibili.com/video/BV1Jf4y15795)
 
 有问题可以提issue
-不过提问之前最好先看看这篇文章[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
+不过提问之前最好先看看有没有人已经提出了类似的问题，以及这篇文章[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
